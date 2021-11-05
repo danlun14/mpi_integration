@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#SBATCH --nodes=9 --ntasks-per-node=6
+#SBATCH --job-name=intagration9_6
+
+cd $SLURM_SUBMIT_DIR
+
+mpiexec ./app
