@@ -7,7 +7,7 @@ set ylabel 'Speedup(relative 4)'
 
 set key left top
 
-set xzeroaxis 4
+set xzeroaxis
 set xtics 12
 set xrange [4:64]
 
