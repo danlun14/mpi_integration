@@ -7,6 +7,8 @@ set ylabel 'Speedup(relative 4)'
 set xzeroaxis lt -1
 set yzeroaxis lt -1
 set key left top
+
+set ytics 4
 set xtics 12
 
 set grid xtics lc rgb  '#555555' lw 1 lt 0
