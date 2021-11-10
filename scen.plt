@@ -7,8 +7,7 @@ set ylabel 'Speedup(relative 4)'
 
 set key left top
 
-set grid xtics lc rgb  '#555555'
-set grid ytics lc rgb  '#555555'
+set grid lc rgb  '#555555''
 
 set xtics 12
 set ytics 3
