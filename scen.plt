@@ -13,8 +13,8 @@ set yrange [1:16]
 set ytics 3
 set xtics 12
 
-set grid xtics lc rgb  '#555555' lw 1 lt 4
-set grid ytics lc rgb  '#555555' lw 1 lt 4
+set grid lc rgb  '#555555' lw 1 lt 4
+set grid lc rgb  '#555555' lw 1 lt 4
 
 set xtics axis
 set ytics axis
