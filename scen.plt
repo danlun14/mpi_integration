@@ -10,8 +10,8 @@ set key left top
 set grid lc rgb  '#555555'
 set grid lc rgb  '#555555'
 
-set xtics 4
-set ytics 1
+set xtics 12
+set ytics 3
 
 plot 'integration.runge.txt' using 1:2 with linespoints lw 1 lt rgb 'blue' title 'Runge inegration speedup', \
  'integration.montecarlo1.txt' using 1:2 with linespoints lw 1 lt rgb 'red' title 'Montecarlo integration speedup(N=10^7)', \
