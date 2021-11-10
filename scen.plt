@@ -13,9 +13,6 @@ set yrange [1:16]
 set ytics 3
 set xtics 12
 
-set grid lc rgb  '#555555' lw 1 lt 4
-set grid lc rgb  '#555555' lw 1 lt 4
-
 set xtics axis
 set ytics axis
 plot 'integration.runge.txt' using 1:2 with linespoints lw 1 lt rgb 'blue' title 'Runge inegration speedup', \
