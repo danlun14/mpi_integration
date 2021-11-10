@@ -10,8 +10,9 @@ set key left top
 set xrange [4:64]
 set yrange [1:16]
 
-set xtics axis
-set ytics axis
+set xtics 12
+set ytics 3
+
 plot 'integration.runge.txt' using 1:2 with linespoints lw 1 lt rgb 'blue' title 'Runge inegration speedup', \
  'integration.montecarlo1.txt' using 1:2 with linespoints lw 1 lt rgb 'red' title 'Montecarlo integration speedup(N=10^7)', \
  'integration.montecarlo2.txt' using 1:2 with linespoints lw 1 lt rgb 'purple' title 'Montecarlo integration speedup(N=10^8)', \
