@@ -4,12 +4,11 @@ set output 'Integration.png'
 set title "MPI Integration"
 set xlabel 'Number of processes'
 set ylabel 'Speedup(relative 4)'
-set xzeroaxis lt -1
-set yzeroaxis lt -1
 set key left top
 
 set xrange [4:64]
 set yrange [1:16]
+
 set ytics 3
 set xtics 12
 
