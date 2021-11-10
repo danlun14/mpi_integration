@@ -10,9 +10,6 @@ set key left top
 set xrange [4:64]
 set yrange [1:16]
 
-set ytics 3
-set xtics 12
-
 set xtics axis
 set ytics axis
 plot 'integration.runge.txt' using 1:2 with linespoints lw 1 lt rgb 'blue' title 'Runge inegration speedup', \
